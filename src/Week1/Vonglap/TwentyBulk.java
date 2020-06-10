@@ -1,3 +1,5 @@
+package Week1.Vonglap;
+
 import java.util.Scanner;
 
 public class TwentyBulk {

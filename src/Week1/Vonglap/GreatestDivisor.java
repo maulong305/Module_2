@@ -1,3 +1,5 @@
+package Week1.Vonglap;
+
 import java.util.Scanner;
 
 public class GreatestDivisor {
@@ -23,7 +25,7 @@ public class GreatestDivisor {
                 b = b - a;
             }
         }
-        System.out.println("GreatestDivisor :" + a);
+        System.out.println("Week1.Vonglap.GreatestDivisor :" + a);
     }
 
 }
