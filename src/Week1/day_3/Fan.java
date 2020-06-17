@@ -1,4 +1,4 @@
-package Week1.Class;
+package day_3;
 
 public class Fan {
 //    khai báo 3 hằng số Slow, Medium, Fast

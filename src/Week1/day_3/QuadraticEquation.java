@@ -1,4 +1,4 @@
-package Week1.Class;
+package day_3;
 
 public class QuadraticEquation {
     //khai báo hệ số của pt.

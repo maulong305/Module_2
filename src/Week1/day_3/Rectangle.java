@@ -1,6 +1,4 @@
-package Week1.Class;
-
-import java.util.Scanner;
+package day_3;
 
 public class Rectangle {
     private double width, height;
