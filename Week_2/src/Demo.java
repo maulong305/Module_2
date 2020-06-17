@@ -1,16 +1,20 @@
-public class NhanVien {
-    public static void main(String[] args) {
-        NhanVien nv1 = new NhanVien();
-        NhanVien nv2 = new TruongPhong();
-        TruongPhong nv3 = new TruongPhong();
-    }
+public class Demo {
+
+            public static void main(String[] args) {
+
+            Animal animal = new Animal();
+
+            animal.speak();
+
+        }
 
 }
+class Animal {
 
+    public void speak(){
 
-    public double getThuNhap() {    }
+        System.out.println("Hello");
 
+    }
 
-public class TruongPhong extends NhanVien {
-    public double getThuNhap() {    }
 }
