@@ -1,7 +1,7 @@
-package Interface_Comparator;
+package interface_comparator;
 
 //khai báo lớp
-public class Circle extends Shape {
+public class Circle extends Shape implements Resizeable{
     //    khai báo thuộc tính
     private double radius = 1.0;
     //    PT khởi tạo không tham số
@@ -33,5 +33,11 @@ public class Circle extends Shape {
     @Override
     public String toString() {
         return "A Circle with radius = "+ radius +", which is a subclass of Shape";
+    }
+
+    @Override
+    public void resize(double percent) {
+        this.radius = this.radius*percent/100;
+
     }
 }
