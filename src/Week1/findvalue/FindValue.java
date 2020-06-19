@@ -1,4 +1,4 @@
-package day_2;
+package findvalue;
 
 import java.util.Scanner;
 
