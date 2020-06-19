@@ -1,4 +1,4 @@
-package Day_5;
+package th_mylist;
 
 public class MyListTest {
     public static void main(String[] args) {

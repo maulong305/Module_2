@@ -1,4 +1,4 @@
-package Day_5;
+package th_mylist;
 
 import java.util.Arrays;
 
