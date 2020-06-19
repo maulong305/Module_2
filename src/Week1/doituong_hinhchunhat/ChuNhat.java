@@ -1,4 +1,4 @@
-package Week1.HinhChuNhat;
+package doituong_hinhchunhat;
 
 class ChuNhat {
     public int rong, dai;
