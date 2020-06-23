@@ -14,19 +14,17 @@ public class MyQueue {
     }
 //    khai báo phương thức isQueueFull()
     public boolean isQueueFull(){
-        boolean status = false;
-        if (currentSize== capacity) {
-            status = true;
+        if (currentSize == capacity) {
+            return  true;
         }
-        return status;
+        return false;
     }
 //    khai bao pt isQueueEmpty()
     public boolean isQueueEmpty() {
-        boolean status = false;
         if (currentSize == 0) {
-            status = true;
+            return  true;
         }
-        return status;
+        return false;
     }
 //    khai bao pt enqueue()
     public void enqueue(int item) {
@@ -36,9 +34,8 @@ public class MyQueue {
         }
         else {
             tail++;
-            if (tail == capacity - 1) {
+            if (tail == capacity)
                 tail = 0;
-            }
 
             queueArr[tail] = item;
             currentSize++;

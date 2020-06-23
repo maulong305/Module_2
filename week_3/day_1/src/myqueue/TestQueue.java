@@ -4,7 +4,7 @@ public class TestQueue {
     public static void main(String[] args) {
         MyQueue queue = new MyQueue(4);
         queue.enqueue(4);
-        queue.dequeue();
+//        queue.dequeue();
         queue.enqueue(56);
         queue.enqueue(2);
         queue.enqueue(67);
@@ -16,7 +16,7 @@ public class TestQueue {
         queue.enqueue(45);
         queue.enqueue(23);
         queue.enqueue(435);
-        System.out.println(queue);
+//        System.out.println(queue);
 
     }
 }
