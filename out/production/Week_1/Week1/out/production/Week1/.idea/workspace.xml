@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="594e064b-4641-4374-ac2c-bb54e304e649" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/maxvalue/FindMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/Day_1/src/TH/CacDoiTuongHinhHoc/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/Day_1/src/TH/CacDoiTuongHinhHoc/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/Day_2/src/CircleComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/Day_2/src/CircleComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/Day_4/Day_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/Day_4/Day_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/out/production/Day_2/Abstract_Interface/AbstracInterFaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/out/production/Day_2/Abstract_Interface/AbstracInterFaceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/out/production/Day_2/Abstract_Interface/fruit/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/out/production/Day_2/Abstract_Interface/fruit/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/out/production/Day_2/Abstract_Interface/fruit/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/out/production/Day_2/Abstract_Interface/fruit/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/out/production/Test/TH/CacDoiTuongHinhHoc/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/out/production/Test/TH/CacDoiTuongHinhHoc/ShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_2/out/production/Test/TH/CacDoiTuongHinhHoc/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_2/out/production/Test/TH/CacDoiTuongHinhHoc/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module_2/DeclareVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/Module_2/DeclareVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module_2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module_2/Week1/Vonglap/Mang/TemperatureConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/Module_2/Week1/Vonglap/Mang/TemperatureConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeclareVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DeclareVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypack/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/mypack/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypack/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/mypack/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/Week1/HinhChuNhat/ChuNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/Week1/HinhChuNhat/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/Week1/mypack/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/Week1/mypack/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/Week1/pack/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/Week1/pack/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week1/day_3/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week1/day_3/StopWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pack/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/pack/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pack/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/pack/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/codegym/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com/codegym/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/codegym/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com/codegym/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/codegym/TestStaticMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com/codegym/TestStaticMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/codegym/TestStaticProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com/codegym/TestStaticProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1dQibMhPPJ03a9NEb74lf6aeJxl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.FindValue">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypack.B" />
+      <module name="Week1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypack.D" />
+      <module name="Week1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_2.daonguocmang.FindValue" />
+      <module name="Week1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_2.daonguocmang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypack.MyClass" />
+      <module name="Week1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_2.daonguocmang.SwingArray" />
+      <module name="Week1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_2.daonguocmang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindValue" />
+        <item itemvalue="Application.SwingArray" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.D" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="594e064b-4641-4374-ac2c-bb54e304e649" name="Default Changelist" comment="" />
+      <created>1592363788108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592363788108</updated>
+      <workItem from="1592363789190" duration="4479000" />
+      <workItem from="1592583064711" duration="1494000" />
+      <workItem from="1592585518717" duration="6438000" />
+      <workItem from="1592592100565" duration="73000" />
+      <workItem from="1592592719264" duration="1443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592592999262">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1592592999262" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1592592171746">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592592171746" />
+    <state width="597" height="160" key="GridCell.Tab.0.bottom" timestamp="1592592029672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="597" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592592029672" />
+    <state width="597" height="160" key="GridCell.Tab.0.center" timestamp="1592592029672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="597" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592592029672" />
+    <state width="597" height="160" key="GridCell.Tab.0.left" timestamp="1592592029672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="597" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592592029672" />
+    <state width="597" height="160" key="GridCell.Tab.0.right" timestamp="1592592029672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="597" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592592029672" />
+    <state x="65" y="0" key="SettingsEditor" timestamp="1592367751398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="65" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1592367751398" />
+    <state x="371" y="102" key="extract.method.dialog" timestamp="1592365677380">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="102" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1592365677380" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592364332142">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592364332142" />
+  </component>
+</project>
