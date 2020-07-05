@@ -1,6 +1,6 @@
 package TH.CacDoiTuongHinhHoc;
 
-public class Square extends Rectangle {
+public class Square extends Rectangle implements Colorable {
 //    khai báo thuộc tính side
     private double side = 1.0;
 //    phương thức khởi tạo
@@ -25,6 +25,11 @@ public class Square extends Rectangle {
     @Override
     public double getArea() {
         return Math.pow(side,2);
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four side ");
     }
 
     @Override

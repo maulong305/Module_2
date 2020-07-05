@@ -10,6 +10,7 @@ public class ShapeTest {
 //        System.out.println(perimeter);
 //        String text = circle.toString();
 //        System.out.println(text);
+
 //        Rectangle rectangle = new Rectangle(2,2,"red",true);
 //        double area = rectangle.getArea();
 //        double perimeter = rectangle.getPerimeter();
@@ -21,6 +22,12 @@ public class ShapeTest {
 //        System.out.println(color);
 //        System.out.println(filled);
         Square square = new Square();
+        double area = square.getArea();
+        double perimeter = square.getPerimeter();
+        square.howToColor();
+        System.out.println(area);
+        System.out.println(perimeter);
+        System.out.println(square.toString());
 
     }
 }

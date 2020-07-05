@@ -13,9 +13,16 @@ public class TesReverseString {
         for (String i : arrString){
             stackString.push(i);
         }
+
+
         for (int i = 0; i < arrString.length; i++){
             arrString[i] = stackString.pop();
         }
+
+//        for (String i : arrString) {
+//            i = stackString.pop();
+//        }
+
         for (String i : arrString) {
             System.out.print(i + "\t");
         }

@@ -2,7 +2,6 @@ package th_sapxepchon;
 
 //tạo lớp SelectionSort
 public class SelectionSort {
-//    khai báo mảng số thực chưa được sắp xếp.
 //    cài đặt phương thức selectionSort
     public static void selectionSort(double[] list) {
         for (int i = 0; i < list.length - 1; i++) {

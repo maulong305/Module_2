@@ -1,2 +1,5 @@
-package TH.CacDoiTuongHinhHoc;public interface Colorable {
+package TH.CacDoiTuongHinhHoc;
+
+public interface Colorable {
+    void howToColor();
 }
