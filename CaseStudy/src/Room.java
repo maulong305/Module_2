@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.Serializable;
 
 public class Room implements Serializable {
@@ -11,9 +13,13 @@ public class Room implements Serializable {
 
 //    phương thức khởi tạo
 
-    public Room(String roomName, double roomArea, int roomRates) {
+    public Room(String roomName, double roomArea, int roomRates) throws IOException {
 
         count++;
+
+        FileWriter fw = new FileWriter("D:\\Bai_tap\\Module_2\\CaseStudy\\src\\counter.csv");
+        fw.write(count);
+        fw.close();
 
         this.idRoom = count;
         this.roomName = roomName;
@@ -53,6 +59,7 @@ public class Room implements Serializable {
     public void setRoomRates(int roomRates) {
         this.roomRates = roomRates;
     }
+
 
     @Override
     public String toString() {

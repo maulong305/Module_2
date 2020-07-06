@@ -10,6 +10,7 @@ public class Manage {
 //        tạo danh sách chứa phòng
         List<Room> listRoom = new ArrayList<>();
         List<Renter> listRenter = new ArrayList<>();
+        List<Id> idList = new ArrayList<>();
 //    tạo menu cho người dùng
         System.out.println("Menu : ");
         System.out.println("Enter 1: Room Manager ");
