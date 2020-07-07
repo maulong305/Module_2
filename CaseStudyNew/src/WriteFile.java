@@ -13,12 +13,18 @@ public class WriteFile {
         fwCounter.close();
     }
 
-    public static void writerMotelRoomFile(List<MotelRoom> motelRoomList) throws IOException {
+    public static void writerMotelRoomFile() throws IOException {
         FileOutputStream fos = new FileOutputStream(
                 "D:\\Bai_tap\\Module_2\\CaseStudyNew\\src\\motelRoomList.csv");
         BufferedOutputStream bos = new BufferedOutputStream(fos);
         ObjectOutputStream oos = new ObjectOutputStream(bos);
-        oos.writeObject(motelRoomList);
+
+        for (MotelRoom m : MenuManagement.motelRoomList) {
+            oos.writeObject(m);
+
+        }
+        fos.close();
         bos.close();
+        oos.close();
     }
 }

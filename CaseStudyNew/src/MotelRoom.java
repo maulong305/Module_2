@@ -1,7 +1,8 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 
-public class MotelRoom {
+public class MotelRoom implements Serializable {
     private int idMotelRoom;
     private String motelRoomName;
     private double motelRoomArea;
@@ -10,12 +11,11 @@ public class MotelRoom {
     static int count;
 
     public MotelRoom(String motelRoomName, double motelRoomArea, int rates) throws IOException {
-
         count++;
-        FileWriter fileWriter = new FileWriter("D:\\Bai_tap\\Module_2\\CaseStudyNew\\src.listId.csv");
+        FileWriter fileWriter = new FileWriter("D:\\Bai_tap\\Module_2\\CaseStudyNew\\src\\counter.txt");
         fileWriter.write(count);
         fileWriter.close();
-
+        this.idMotelRoom = count;
         this.motelRoomName = motelRoomName;
         this.motelRoomArea = motelRoomArea;
         this.rates = rates;
@@ -65,8 +65,8 @@ public class MotelRoom {
     public String toString() {
         return
                 "idMotelRoom=" + idMotelRoom +
-                ", motelRoomName='" + motelRoomName + '\'' +
-                ", motelRoomArea=" + motelRoomArea +
-                ", rates=" + rates ;
+                        ", motelRoomName='" + motelRoomName + '\'' +
+                        ", motelRoomArea=" + motelRoomArea +
+                        ", rates=" + rates;
     }
 }
