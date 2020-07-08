@@ -14,7 +14,8 @@ public class MenuManagement {
             FileManagement.readMotelRoomFile(motelRoomList);
         }
 
-        System.out.println("Enter 1: Add Room ");
+        System.out.println("\n" +
+                "Enter 1: Add Room ");
         System.out.println("Enter 2: Delete Room ");
         System.out.println("Enter 3: Edit Room ");
         System.out.println("Enter 4: Search ");
@@ -39,7 +40,7 @@ public class MenuManagement {
 
             case 3:
                 RoomManage.repair(motelRoomList);
-                FileManagement.writerMotelRoomFile(motelRoomList);
+                FileManagement .writerMotelRoomFile(motelRoomList);
 
                 break;
             case 4:
@@ -49,7 +50,10 @@ public class MenuManagement {
 //                System.out.println(motelRoomList.size());
                 RoomManage.display(motelRoomList);
                 break;
-            case 6:
+            case 0:
+                System.exit(0);
+            default:
+                System.out.println("Please choose again!");
 
         }
 

@@ -38,6 +38,8 @@ public class RoomManage {
             if (idMotelRoom == motelRoomList.get(i).getIdMotelRoom()) {
                 motelRoomList.remove(i);
                 check = false;
+
+                System.out.println("Delete Successful");
                 break;
             }
         }
@@ -71,6 +73,8 @@ public class RoomManage {
                 motelRoomList.get(i).setMotelRoomArea(newArea);
                 motelRoomList.get(i).setRates(newRates);
 
+                System.out.println("Edit successful.");
+
                 checker = false;
 
                 break;
@@ -88,7 +92,7 @@ public class RoomManage {
 //    Display motelRoomList
 
     static void display(List<MotelRoom> motelRoomList) {
-        System.out.println("List Room today");
+        System.out.println("List Room ");
         for (int i = 0; i < motelRoomList.size(); i++) {
             System.out.println(motelRoomList.get(i));
         }
