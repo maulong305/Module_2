@@ -10,8 +10,8 @@ public class MenuManagement {
     public static void menu() throws Exception {
 
         if (motelRoomList.size() == 0) {
-            ReadFile.readCounterFile();
-            ReadFile.readMotelRoomFile(motelRoomList);
+            FileManagement.readCounterFile();
+            FileManagement.readMotelRoomFile(motelRoomList);
         }
 
         System.out.println("Enter 1: Add Room ");
@@ -29,17 +29,17 @@ public class MenuManagement {
             case 1:
                 MotelRoom newRoom = RoomManage.create();
                 motelRoomList.add(newRoom);
-                WriteFile.writerMotelRoomFile(motelRoomList);
+                FileManagement.writerMotelRoomFile(motelRoomList);
                 break;
             case 2:
                 RoomManage.delete(motelRoomList);
-                WriteFile.writerMotelRoomFile(motelRoomList);
+                FileManagement.writerMotelRoomFile(motelRoomList);
 
                 break;
 
             case 3:
                 RoomManage.repair(motelRoomList);
-                WriteFile.writerMotelRoomFile(motelRoomList);
+                FileManagement.writerMotelRoomFile(motelRoomList);
 
                 break;
             case 4:

@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class Manager {
     private static List<MotelRoom> list = new ArrayList<>();
-
+// add room
     public static boolean addNewRoom(String name, Double area, int rates) throws IOException {
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getMotelRoomName().equals(name)) {
@@ -18,6 +18,8 @@ public abstract class Manager {
     public static ArrayList<MotelRoom> getRoomList() {
         return (ArrayList<MotelRoom>) list;
     }
+
+//    delete room
     public static void deleteRoom(int idRoom){
         for (MotelRoom m: list){
             if (m.getIdMotelRoom() == idRoom){
@@ -25,6 +27,8 @@ public abstract class Manager {
             }
         }
     }
+
+//    search
     public static List<MotelRoom> search(String roomName){
         List<MotelRoom> result = new ArrayList<>();
         for (MotelRoom m: list){

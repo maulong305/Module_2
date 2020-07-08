@@ -2,8 +2,20 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadFile {
+public class FileManagement {
 
+    public static void writerMotelRoomFile(List<MotelRoom> motelRoomList) throws IOException {
+        FileOutputStream fos = new FileOutputStream(
+                "D:\\Bai_tap\\Module_2\\CaseStudyNew\\src\\motelRoomList.csv");
+        BufferedOutputStream bos = new BufferedOutputStream(fos);
+        ObjectOutputStream oos = new ObjectOutputStream(bos);
+
+        oos.writeObject(motelRoomList);
+
+        bos.flush();
+        bos.close();
+        fos.close();
+    }
 
     public static void readMotelRoomFile(List<MotelRoom> motelRoomList) throws Exception {
         File fileMotelRoomList = new File("D:\\Bai_tap\\Module_2\\CaseStudyNew\\src\\motelRoomList.csv");

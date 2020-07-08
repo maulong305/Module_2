@@ -10,6 +10,20 @@ public class Control {
             showMenu();
         }
     }
+    public static void addRoom() throws IOException {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter motelRoomName : ");
+        String motelRoomName = scanner.nextLine();
+
+        System.out.println("Enter motelRoomArea : ");
+        double motelRoomArea = scanner.nextDouble();
+
+        System.out.println("Enter rates : ");
+        int rates = scanner.nextInt();
+        Manager.addNewRoom(motelRoomName, motelRoomArea, rates);
+    }
+
     public static void search(){
         System.out.println("Nhập tên phòng muốn tìm");
         Scanner scanner = new Scanner(System.in);
@@ -26,6 +40,12 @@ public class Control {
         int id = scanner.nextInt();
         Manager.deleteRoom(id);
         showRoomList();
+    }
+
+    public static void showRoomList(){
+        for (MotelRoom m: Manager.getRoomList()){
+            System.out.println(m);
+        }
     }
 
     public static void showMenu() throws IOException {
@@ -54,22 +74,6 @@ public class Control {
             default:
         }
     }
-public static void showRoomList(){
-       for (MotelRoom m: Manager.getRoomList()){
-           System.out.println(m);
-       }
-}
-    public static void addRoom() throws IOException {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter motelRoomName : ");
-        String motelRoomName = scanner.nextLine();
 
-        System.out.println("Enter motelRoomArea : ");
-        double motelRoomArea = scanner.nextDouble();
-
-        System.out.println("Enter rates : ");
-        int rates = scanner.nextInt();
-        Manager.addNewRoom(motelRoomName, motelRoomArea, rates);
-    }
 }
