@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -21,13 +20,10 @@ public class RoomManage {
         MotelRoom motelRoom = new MotelRoom(motelRoomName, motelRoomArea, rates);
 
         return motelRoom;
-
-
     }
 
 //    Delete room
-
-    static void delete(List<MotelRoom> motelRoomList) {
+    static boolean delete(List<MotelRoom> motelRoomList) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter idMotelRoom : ");
@@ -46,12 +42,11 @@ public class RoomManage {
         if (check) {
             System.out.println("Id not found ");
         }
-
+        return check;
     }
 
-
     //    Repair room
-    static void repair(List<MotelRoom> motelRoomList) {
+    static boolean repair(List<MotelRoom> motelRoomList) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Id");
         int idMotelRoom = scanner.nextInt();
@@ -78,15 +73,13 @@ public class RoomManage {
                 checker = false;
 
                 break;
-
-
             }
         }
         if (checker) {
-
             System.out.println("Id not found. " +
                     "\n" + "Please try again!");
         }
+        return checker;
     }
 
 //    Display motelRoomList
@@ -100,7 +93,7 @@ public class RoomManage {
 
 //    Search motelRoom
 
-    static void searchRoom(List<MotelRoom> motelRoomList) {
+    static boolean searchRoom(List<MotelRoom> motelRoomList) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Id");
         int idRoom = scanner.nextInt();
@@ -117,10 +110,10 @@ public class RoomManage {
             System.out.println("Id not found. " +
                     "\n" + "Please try again!");
         }
-
+        return check;
     }
 
-    static void pay(List<MotelRoom> motelRoomList) throws IOException {
+    static boolean pay(List<MotelRoom> motelRoomList) throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter idMotelRoom");
         int id = scanner.nextInt();
@@ -131,6 +124,7 @@ public class RoomManage {
         System.out.println("Enter WaterNumber");
         int wNumber = scanner.nextInt();
 
+        boolean check = false;
 
         for (int i = 0; i < motelRoomList.size(); i++) {
             if (id == motelRoomList.get(i).getIdMotelRoom()) {
@@ -141,10 +135,10 @@ public class RoomManage {
                 motelRoomList.get(i).setStatus("Paid");
 
                 System.out.println(motelRoomList.get(i));
+                check = true;
             }
         }
-
-
+        return check;
     }
 
 }

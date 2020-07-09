@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class FileManagement {
@@ -33,7 +32,6 @@ public class FileManagement {
             fis.close();
             bis.close();
             ois.close();
-
         }
     }
 
@@ -46,8 +44,6 @@ public class FileManagement {
             frCounter.close();
 
             MotelRoom.count = counter;
-
-
         }
     }
 }
