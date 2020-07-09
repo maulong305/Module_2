@@ -120,4 +120,31 @@ public class RoomManage {
 
     }
 
+    static void pay(List<MotelRoom> motelRoomList) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter idMotelRoom");
+        int id = scanner.nextInt();
+
+        System.out.println("Enter ElectricNumber");
+        int eNumber = scanner.nextInt();
+
+        System.out.println("Enter WaterNumber");
+        int wNumber = scanner.nextInt();
+
+
+        for (int i = 0; i < motelRoomList.size(); i++) {
+            if (id == motelRoomList.get(i).getIdMotelRoom()) {
+                long totalElectric = eNumber*motelRoomList.get(i).getElectricPrice();
+                long totalWater = wNumber*motelRoomList.get(i).getWaterPrice();
+
+                motelRoomList.get(i).setPay(totalElectric+totalWater+ motelRoomList.get(i).getRates());
+
+                System.out.println(motelRoomList.get(i));
+            }
+        }
+        FileManagement.writerMotelRoomFile(motelRoomList);
+
+
+    }
+
 }

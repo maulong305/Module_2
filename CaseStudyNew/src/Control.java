@@ -10,6 +10,7 @@ public class Control {
             showMenu();
         }
     }
+//    add Room
     public static void addRoom() throws IOException {
         Scanner scanner = new Scanner(System.in);
 
@@ -23,7 +24,16 @@ public class Control {
         int rates = scanner.nextInt();
         Manager.addNewRoom(motelRoomName, motelRoomArea, rates);
     }
-
+// delete room
+    public static void detele(){
+        showRoomList();
+        System.out.println("Nhập ID của phòng muốn xóa:");
+        Scanner scanner = new Scanner(System.in);
+        int id = scanner.nextInt();
+        Manager.deleteRoom(id);
+        showRoomList();
+    }
+//    search room
     public static void search(){
         System.out.println("Nhập tên phòng muốn tìm");
         Scanner scanner = new Scanner(System.in);
@@ -33,13 +43,29 @@ public class Control {
             System.out.println(m);
         }
     }
-    public static void detele(){
-        showRoomList();
-        System.out.println("Nhập ID của phòng muốn xóa:");
+//    edit room
+    public static void edit() {
+        System.out.println("Nhập id phòng muốn sửa");
         Scanner scanner = new Scanner(System.in);
-        int id = scanner.nextInt();
-        Manager.deleteRoom(id);
-        showRoomList();
+        int idRoom = scanner.nextInt();
+        if (!Manager.isExistId(idRoom)){
+            System.out.println("not found");
+            return;
+        }
+        scanner.nextLine();
+        System.out.println("Enter new name :");
+
+        String newName = scanner.nextLine();
+
+        System.out.println("Enter new Area ");
+        double newArea = scanner.nextDouble();
+
+        System.out.println("Enter new rates ");
+        int newRates = scanner.nextInt();
+
+        Manager.edit(idRoom, newName, newArea, newRates);
+
+
     }
 
     public static void showRoomList(){
@@ -51,7 +77,7 @@ public class Control {
     public static void showMenu() throws IOException {
         System.out.println("Enter 1: Add Room ");
         System.out.println("Enter 2: Delete Room ");
-        System.out.println("Enter 3: Repair Room ");
+        System.out.println("Enter 3: Edit Room ");
         System.out.println("Enter 4: Search ");
         System.out.println("Enter 5: Display ");
 
@@ -64,6 +90,9 @@ public class Control {
                 break;
             case 2:
                 detele();
+                break;
+            case 3:
+                edit();
                 break;
             case 4:
                 search();

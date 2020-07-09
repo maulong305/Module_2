@@ -7,6 +7,10 @@ public class MotelRoom implements Serializable {
     private String motelRoomName;
     private double motelRoomArea;
     private int rates;
+    private int ElectricPrice = 3000;
+    private int WaterPrice = 20000;
+    private long pay;
+    private String status;
 
     static int count;
 
@@ -21,6 +25,23 @@ public class MotelRoom implements Serializable {
         this.motelRoomName = motelRoomName;
         this.motelRoomArea = motelRoomArea;
         this.rates = rates;
+        this.status = "Not paid";
+    }
+
+    public long getPay() {
+        return pay;
+    }
+
+    public void setPay(long pay) {
+        this.pay = pay;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public int getIdMotelRoom() {
@@ -63,12 +84,28 @@ public class MotelRoom implements Serializable {
         MotelRoom.count = count;
     }
 
+    public int getElectricPrice() {
+        return ElectricPrice;
+    }
+
+    public void setElectricPrice(int electricPrice) {
+        ElectricPrice = electricPrice;
+    }
+
+    public int getWaterPrice() {
+        return WaterPrice;
+    }
+
+    public void setWaterPrice(int waterPrice) {
+        WaterPrice = waterPrice;
+    }
+
     @Override
     public String toString() {
         return
                 "idMotelRoom = " + idMotelRoom +
                         ", motelRoomName = '" + motelRoomName + '\'' +
                         ", motelRoomArea = " + motelRoomArea +
-                        ", rates = " + rates;
+                        ", rates = " + rates + ", Room Status = " + status + ", Pay = " + pay;
     }
 }

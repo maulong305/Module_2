@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class MenuManagement {
     static List<MotelRoom> motelRoomList = new ArrayList<>();
 
+
     public static void menu() throws Exception {
 
         if (motelRoomList.size() == 0) {
@@ -20,6 +21,7 @@ public class MenuManagement {
         System.out.println("Enter 3: Edit Room ");
         System.out.println("Enter 4: Search ");
         System.out.println("Enter 5: Display ");
+        System.out.println("Enter 6: Print Bill");
 
 
 
@@ -47,8 +49,10 @@ public class MenuManagement {
                 RoomManage.searchRoom(motelRoomList);
                 break;
             case 5:
-//                System.out.println(motelRoomList.size());
                 RoomManage.display(motelRoomList);
+                break;
+            case 6:
+                RoomManage.pay(motelRoomList);
                 break;
             case 0:
                 System.exit(0);

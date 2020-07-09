@@ -1,11 +1,24 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Service {
     int id;
-    int electricNumber;
-    int waterNumber;
+    int electricNumber = 0;
+    int waterNumber = 0;
     int electricPrice = 3000;
     int waterPrice = 20000;
-    static int count;
+    static int count1;
     int room_id;
+
+    public Service() throws IOException {
+        count1++;
+        FileWriter fileWriter1 = new FileWriter("D:\\Bai_tap\\Module_2\\CaseStudyNew\\src\\counterService.csv");
+        fileWriter1.write(count1);
+        fileWriter1.close();
+
+        this.id = count1;
+
+    }
 
     public int getId() {
         return id;

@@ -39,4 +39,24 @@ public abstract class Manager {
         return result;
     }
 
+// Edit room
+    public static void edit(int idRoom,String newName, double newArea, int newRates) {
+        for (int i = 0; i < list.size(); i++) {
+            if ( list.get(i).getIdMotelRoom() == idRoom){
+                list.get(i).setMotelRoomName(newName);
+                list.get(i).setMotelRoomArea(newArea);
+                list.get(i).setRates(newRates);
+            }
+        }
+    }
+
+    public static boolean isExistId(int id) {
+        for (int i = 0 ; i < list.size(); i++) {
+            if (list.get(i).getIdMotelRoom() == id) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
