@@ -53,6 +53,8 @@ public class MenuManagement {
                 break;
             case 6:
                 RoomManage.pay(motelRoomList);
+                FileManagement.writerMotelRoomFile(motelRoomList);
+
                 break;
             case 0:
                 System.exit(0);

@@ -138,11 +138,11 @@ public class RoomManage {
                 long totalWater = wNumber*motelRoomList.get(i).getWaterPrice();
 
                 motelRoomList.get(i).setPay(totalElectric+totalWater+ motelRoomList.get(i).getRates());
+                motelRoomList.get(i).setStatus("Paid");
 
                 System.out.println(motelRoomList.get(i));
             }
         }
-        FileManagement.writerMotelRoomFile(motelRoomList);
 
 
     }
