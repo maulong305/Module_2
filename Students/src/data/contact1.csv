@@ -1,0 +1,5 @@
+Student{phoneNumber='0912333444', group='1', name='Vo Van B', gender='Nam', address='Ha Noi'}
+Student{phoneNumber='0934555666', group='3', name='Tran Thi H', gender='Nữ', address='Quảng Ninh'}
+Student{phoneNumber='0983444777', group='2', name='Lê Thị D', gender='Nữ', address='Hà Nội'}
+Student{phoneNumber='0912345987', group='1', name='Phạm văn V', gender='Nam', address='Sài Gòn'}
+Student{phoneNumber='0982828282', group='3', name='bui thanh ha', gender='nu', address='nghe an'}
